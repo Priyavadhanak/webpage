@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff Login - Kumaraguru Institution</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Staff Login</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="student.html">Student Login</a></li>
+                <li><a href="parent.html">Parent Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="login-form">
+        <form action="staff.html" method="post">
+            <label for="staff-id">Staff ID:</label>
+            <input type="text" id="staff-id" name="staff-id" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="department">Department:</label>
+            <input type="text" id="department" name="department" required>
+
+            <input type="submit" value="Login">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Kumaraguru Institution. All rights reserved.</p>
+    </footer>
+</body>
+</html>
